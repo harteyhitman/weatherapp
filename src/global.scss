@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: 1px solid red;
+  }
+  body{
+    font-family: "Roboto";
+    // max-width: 100%;
+}
+  .search_tablet{
+    display: none;
+  }
+  img{
+    max-width: 100%;
+  }
+  sup{
+    font-size: 30px;
+    font-weight: bold;
+    vertical-align:text-top;
+  }
+ 
+  .display{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 20px; 
+    h1{
+        font-size: 104px;
+        font-family: "Roboto";
+        font-weight: 400;
+    }  .city{
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        justify-content: center;
+        // gap: 5px;
+        h2{
+            font-size: 50px;
+            font-weight: 400;
+        }
+        .time{
+            display: flex;
+            gap: 5px;
+        }
+    }
+  }
+  input{
+    border: none;
+    border-bottom: 2px solid #fff;
+    background: none; 
+    padding-bottom: 10px;
+    width: 300px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 800;
+    outline: none;
+    &::placeholder
+    {color: #718691;
+     font-size: 14px;
+     font-weight: 400;
+    }
+  }
+  .search{
+    display: flex;
+    align-items: center;
+  }
+
+
+.deg-icons{
+    width: 20px;
+    height: 30px;
+}
+.temperature{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.indict{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.temp_cont{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
